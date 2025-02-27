@@ -22,6 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'hr.prijavituriste.in_app_comments'
     compileSdkVersion 31
 
     compileOptions {
